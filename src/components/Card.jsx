@@ -2,20 +2,23 @@ import React, { useState } from 'react';
 import { toast } from 'react-toastify';
 
 
-const Card = ({data}) => {
+const Card = ({data,activeCarts,setactiveCarts}) => {
+
      const [buy ,setBuy]=useState(false)
+         
 
      const handle=() =>{
        if(!buy){
         setBuy(true)
          toast.success("Buy Successfull")
+           
        }
      else{
 
          toast.error("Already bought")
      }
       
-      
+        setactiveCarts([...activeCarts,data])
      }
     return (
        <div key={data.id}>
@@ -66,7 +69,7 @@ const Card = ({data}) => {
                   ))}
                 </ul>
                 <div className="mt-6">
-                  <button className={buy?'btn btn-success  transition-all duration-300 hover:scale-110':'btn btn-primary'} onClick={handle} >
+                  <button  className={buy?'btn btn-success  transition-all duration-300 hover:scale-110':'btn  btn-primary'} onClick={handle} >
                     {buy?'Buy Completed':'Buy now'}
                   </button>
                 </div>

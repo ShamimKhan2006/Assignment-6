@@ -5,11 +5,15 @@ import Aside from './components/Aside'
 import Section from './components/Section'
 import Footer from './components/Footer'
 import Cards from './components/Cards'
-import { Suspense } from 'react'
+import { Suspense, useState } from 'react'
 import Loading from './components/Loading'
 import { ToastContainer } from 'react-toastify'
+import Sec2 from './components/Sec2'
+import Carts from './components/Carts'
 
  const getData=async() =>{
+
+
     const res=await fetch("/data.json")
  return  res.json()
 
@@ -20,6 +24,11 @@ import { ToastContainer } from 'react-toastify'
 function App() {
 
   const promise=getData()
+  const [show ,setShow]=useState("Products")
+  
+  const [activeCarts,setactiveCarts]=useState([])
+
+ console.log("activeCarts",activeCarts)
 
   return (
     <>
@@ -27,30 +36,30 @@ function App() {
     <Navber></Navber>
 
   <Banner></Banner>
-  <div  className=' mx-auto bg-gradient-to-b from-indigo-600 to-purple-600 p-6   my-30'>
-    <div className=' w-full max-w-7xl grid   grid-cols-2 px-4 md:grid-cols-3 gap-10 mx-auto  text-white'>
-    <div>
-      <h1 className='font-bold text-6xl mr-10 '>50K+</h1>
-    <p >Active Users</p>
-      </div>
-      <div>
-        <h1 className='font-bold text-6xl'>200+</h1>
-    <p>Premium Tools</p>
-      </div>
-    <div>
-        <h1 className='font-bold text-6xl'>4.9</h1>
-    <p>Rating</p>
-  
-    </div>
-  </div>
-  </div>
+    
+  <Sec2></Sec2>
 
   <Aside></Aside>
+       <div className="text-center space-y-4">
+        <h1 className="text-5xl font-bold">Premium Digital Tools</h1>
+        <p>
+          Choose from our curated collection of premium digital products
+          designed <br></br>
+          to boost your productivity and creativity.
+        </p>
+      </div>
+
+     {/* tabs */}
+     <div className="tabs tabs-box flex justify-center items-center mx-auto border-none bg-white mt-5">
+      <input type="radio" name="my_tabs_1" className="tab rounded-full pl-4 w-30" aria-label="Products" defaultChecked  onClick={()=>setShow("Products")} />
+      <input type="radio" name="my_tabs_1" className="tab rounded-full pl-4 w-30" aria-label="Carts" onClick={()=> setShow("Carts")} />
+    
+    </div>
   <Suspense fallback={<Loading></Loading>}>
-    <Cards promise={promise}></Cards>
+  {show === "Products" && <Cards  promise={promise} activeCarts={activeCarts} setactiveCarts={setactiveCarts}></Cards>}
 
   </Suspense>
-
+    {show === "Carts" && <Carts carts={activeCarts} set={setactiveCarts} />}
   <Section></Section>
   <Footer></Footer>
     </>
