@@ -5,7 +5,7 @@ const Section = () => {
     <div className='w-full  bg-base-100  text-center my-40 '>
       <h1 className='text-5xl  font-bold mb-5'>Simple, Transparent Pricing</h1>
       <p className='mb-10'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
-      <div className='w-full max-w-10/12  px-2 mx-auto grid grid-cols-1 md:grid-cols-2   lg:grid-cols-3  gap-8 relative'>
+      <div className='w-full max-w-8/12  px-2 mx-auto grid grid-cols-1 md:grid-cols-2   lg:grid-cols-3  gap-8 relative'>
 
         <div className="card bg-base-200 shadow-sm hover:scale-110 transition cursor-pointer ">
           <div className="card-body">
