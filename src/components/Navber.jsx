@@ -4,15 +4,15 @@ const Navber = () => {
   return (
     <div>
 
-      <div className="navbar bg-base-100 w-8/12 mx-auto">
+      <div className="navbar bg-base-100 w-full px-2 max-w-11/12 mx-auto">
 
 
-        <div className="flex-1 mr-10">
-          <a className="btn btn-ghost text-4xl">DigiTools</a>
+        <div className="flex-1 ">
+          <a className="btn btn-ghost  text-2xl md:text-4xl">DigiTools</a>
         </div>
 
       
-        <div className="flex gap-13 mx-auto w-7/12">
+        <div className=" hidden md:flex gap-13 mx-auto">
           <p>Products</p>
           <p>Features</p>
           <p>Pricing</p>

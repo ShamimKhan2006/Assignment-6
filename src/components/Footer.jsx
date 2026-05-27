@@ -9,13 +9,14 @@ const Footer = () => {
         <footer className="bg-[#0b1220] text-gray-300">
 
 
-            <div className="h-1 w-full"></div>
+        
+        
 
-            <div className="max-w-7xl mx-auto px-6 py-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
+            <div className="  grid grid-cols-2 ml-4 md:grid-cols-4 w-full pt-10 mx-auto px-10 gap-4">
 
 
                 <div>
-                    <h1 className="text-2xl font-bold text-white mb-3">DigiTools</h1>
+                    <h1 className="text-[20px] md:text-2xl font-bold text-white mb-3">DigiTools</h1>
                     <p className="text-sm text-gray-400">
                         Premium digital tools for creators, professionals, and businesses.
                         Work smarter with our suite of powerful tools.
@@ -33,7 +34,7 @@ const Footer = () => {
                 </div>
 
 
-                <div>
+                <div className="mb-4">
                     <h6 className="text-white font-semibold mb-3">Company</h6>
                     <ul className="space-y-2 text-sm">
                         <li className="hover:text-white cursor-pointer">About</li>
@@ -44,7 +45,7 @@ const Footer = () => {
                 </div>
 
 
-                <div>
+                <div className="my-4">
                     <h6 className="text-white font-semibold mb-3">Resources</h6>
                     <ul className="space-y-2 text-sm">
                         <li className="hover:text-white cursor-pointer">Documentation</li>
@@ -55,16 +56,16 @@ const Footer = () => {
                 </div>
 
 
-                <div>
+                <div className="my-4">
                     <h6 className="text-white font-semibold mb-3">Social Links</h6>
                     <div className="flex gap-3">
-                        <div className="bg-white  p-2 rounded-full hover: text-pink-500 cursor-pointe  scale-110 transition">
+                        <div className="bg-white  p-2 rounded-full   text-pink-500 hover:cursor-pointer  scale-110 transition">
                             <FaInstagram />
                         </div>
-                        <div className="bg-white p-2 rounded-full hover: text-blue-500 cursor-pointer scale-110 transition">
+                        <div className="bg-white p-2 rounded-full text-blue-500 hover:cursor-pointer scale-110 transition">
                             <FaFacebookF />
                         </div>
-                        <div className="bg-white p-2 rounded-full hover: text-sky-500 cursor-pointer scale-110 transition">
+                        <div className="bg-white p-2 rounded-full    text-sky-500  hover: cursor-pointer scale-110 transition">
                             <FaXTwitter />
                         </div>
                     </div>

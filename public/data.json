@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Pack",
+    "description": "Perfect for beginners to create a clean and professional resume.",
+    "price": 9,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "20+ templates",
+      "Basic ATS optimization",
+      "Export to PDF"
+    ],
+    "img": "/src/assets/products/design-tool.png"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Builder",
+    "description": "Advanced resume builder with premium templates and customization.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "Full ATS optimization",
+      "Custom sections",
+      "Export to PDF & DOCX"
+    ],
+    "img": "/src/assets/products/operation.png"
+  },
+  {
+    "id": 3,
+    "name": "Career Boost Plan",
+    "description": "All-in-one package to boost your career opportunities.",
+    "price": 49,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Unlimited resumes",
+      "Cover letter builder",
+      "LinkedIn optimization",
+      "Priority support"
+    ],
+    "img": "/src/assets/products/portfolio.png"
+  },
+  {
+    "id": 4,
+    "name": "Portfolio Builder",
+    "description": "Create stunning portfolios to showcase your work.",
+    "price": 15,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "50+ portfolio templates",
+      "Responsive design",
+      "Custom domains",
+      "Image gallery support"
+    ],
+    "img": "/src/assets/products/shopping-cart.png"
+  },
+  {
+    "id": 5,
+    "name": "Freelancer Kit",
+    "description": "Everything freelancers need to stand out and win clients.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Proposal templates",
+      "Invoice generator",
+      "Client tracker",
+      "Export to PDF"
+    ],
+    "img": "/src/assets/products/social-media.png"
+  },
+  {
+    "id": 6,
+    "name": "Job Hunter Pack",
+    "description": "Tools and templates designed for active job seekers.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Resume + cover letter",
+      "Interview tips",
+      "Job tracking dashboard",
+      "Email templates"
+    ],
+    "img": "/src/assets/products/writing_2327400 1.png"
+  }
+  
+]

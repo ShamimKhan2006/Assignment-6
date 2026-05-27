@@ -2,12 +2,12 @@ import React from 'react';
 
 const Section = () => {
   return (
-    <div className='w-full bg-base-100  text-center my-40 '>
+    <div className='w-full  bg-base-100  text-center my-40 '>
       <h1 className='text-5xl  font-bold mb-5'>Simple, Transparent Pricing</h1>
       <p className='mb-10'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
-      <div className='w-8/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 relative'>
+      <div className='w-full max-w-10/12  px-2 mx-auto grid grid-cols-1 md:grid-cols-2   lg:grid-cols-3  gap-8 relative'>
 
-        <div className="card w-96 bg-base-200 shadow-sm hover:scale-110 transition cursor-pointer ">
+        <div className="card bg-base-200 shadow-sm hover:scale-110 transition cursor-pointer ">
           <div className="card-body">
 
             <div className='text-left'>
@@ -39,11 +39,11 @@ const Section = () => {
           </div>
         </div>
 
-        <div className="card w-96  bg-gradient-to-r from-[#4f39f6] to-[#9514fa] shadow-sm hover:border-purple-500 hover:scale-110 transition cursor-pointer">
+        <div className="card w-full bg-gradient-to-r from-[#4f39f6] to-[#9514fa] shadow-sm hover:border-purple-500 hover:scale-110 transition cursor-pointer">
           <div className="card-body ">
 
             <div className='text-left text-white'>
-              <p className=' p-2 rounded-2xl bg-amber-300  absolute top-[-20px] right-[135px] text-[#bb4d00]'>Most popular</p>
+              <p className=' p-4 rounded-2xl badge  absolute top-[-20px] right-[135px] badge-warning '>Most popular</p>
               <h2 className="text-3xl font-bold">Pro</h2>
               <p className='mt-3'>Best for professionals</p>
               <p><span className="text-2xl font-bold">$29</span>/Month</p>
@@ -80,7 +80,7 @@ const Section = () => {
           </div>
         </div>
 
-        <div className="card w-96 bg-base-200 shadow-sm hover:scale-110 transition cursor-pointer">
+        <div className="card  bg-base-200 shadow-sm hover:scale-110 transition cursor-pointer">
           <div className="card-body">
 
             <div className='text-left'>
