@@ -28,7 +28,7 @@
       "Custom sections",
       "Export to PDF & DOCX"
     ],
-    "img": "/"
+    "img": "/assets/operation.png"
   },
   {
     "id": 3,
@@ -44,7 +44,7 @@
       "LinkedIn optimization",
       "Priority support"
     ],
-    "img": "/products/portfolio.png"
+    "img": "/assets/portfolio.png"
   },
   {
     "id": 4,
@@ -60,7 +60,7 @@
       "Custom domains",
       "Image gallery support"
     ],
-    "img": "/products/shopping-cart.png"
+    "img": "/assets/shopping-cart.png"
   },
   {
     "id": 5,
@@ -76,7 +76,7 @@
       "Client tracker",
       "Export to PDF"
     ],
-    "img": "/products/social-media.png"
+    "img": "/assets/social-media.png"
   },
   {
     "id": 6,
@@ -92,6 +92,6 @@
       "Job tracking dashboard",
       "Email templates"
     ],
-    "img": "/products/writing_2327400 1.png"
+    "img": "/assets/writing_2327400 1.png"
   }
 ]
