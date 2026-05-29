@@ -61,10 +61,10 @@ const Carts = ({ carts, set}) => {
         ))}
 
         <div className="flex justify-between items-center">
-            <h1 className="font-bold text-2xl">Totall</h1>
+            <h1 className="font-bold text-2xl">Total</h1>
             <p className="font-bold text-2xl">${totall}</p>
         </div>
-         <button onClick={handlePay} className={'w-full btn btn-primary p-4 text-md rounded-md font-bold'}>Process to Cheaout</button>
+         <button onClick={handlePay} className={'w-full btn btn-primary p-4 text-md rounded-md font-bold'}>Process to Checkout</button>
       </div>
             </>
          }

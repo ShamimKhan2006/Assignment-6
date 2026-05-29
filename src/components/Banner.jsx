@@ -1,5 +1,5 @@
 import React from "react";
-import BannerPic from "../assets/banner.png";
+
 
 const Banner = () => {
   return (
@@ -22,7 +22,7 @@ const Banner = () => {
         </div>
       </div>
       <div className='right'>
-        <img src={BannerPic} alt="" />
+        <img src="/assets/banner.png" alt="" />
       </div>
     </div>
   );

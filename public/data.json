@@ -12,7 +12,7 @@
       "Basic ATS optimization",
       "Export to PDF"
     ],
-    "img": "/src/assets/products/design-tool.png"
+    "img": "/assets/design-tool.png"
   },
   {
     "id": 2,
@@ -28,7 +28,7 @@
       "Custom sections",
       "Export to PDF & DOCX"
     ],
-    "img": "/src/assets/products/operation.png"
+    "img": "/"
   },
   {
     "id": 3,
@@ -44,7 +44,7 @@
       "LinkedIn optimization",
       "Priority support"
     ],
-    "img": "/src/assets/products/portfolio.png"
+    "img": "/products/portfolio.png"
   },
   {
     "id": 4,
@@ -60,7 +60,7 @@
       "Custom domains",
       "Image gallery support"
     ],
-    "img": "/src/assets/products/shopping-cart.png"
+    "img": "/products/shopping-cart.png"
   },
   {
     "id": 5,
@@ -76,7 +76,7 @@
       "Client tracker",
       "Export to PDF"
     ],
-    "img": "/src/assets/products/social-media.png"
+    "img": "/products/social-media.png"
   },
   {
     "id": 6,
@@ -92,7 +92,6 @@
       "Job tracking dashboard",
       "Email templates"
     ],
-    "img": "/src/assets/products/writing_2327400 1.png"
+    "img": "/products/writing_2327400 1.png"
   }
-  
 ]

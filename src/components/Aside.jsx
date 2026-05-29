@@ -1,7 +1,4 @@
 import React from 'react';
-import User from '../assets/user.png'
-import Package from '../assets/package.png'
-import Rocket from '../assets/rocket.png'
 
 const Aside = () => {
     return (
@@ -14,7 +11,7 @@ const Aside = () => {
             <div className='shadow p-20 bg-base-200 rounded-3xl space-y-4 relative hover:border-purple-500 hover:shadow-[0_0_20px_rgba(168,85,247,0.5)] transition duration-300 cursor-pointer'>
               <button className='rounded-full  p-4 btn bg-gradient-to-b from-indigo-600 to-purple-600 absolute top-5 right-7 text-white'>01</button>
                <div>
-                 <img src={User} alt="" />
+                 <img src="/assets/user.png" alt="" />
                </div>
                <div className='text-center'>
                  <h2 className='font-bold text-2xl'>Create Account</h2>
@@ -24,7 +21,7 @@ const Aside = () => {
             <div className='shadow p-20  bg-base-200 rounded-3xl space-y-4 relative hover:border-purple-500 hover:shadow-[0_0_20px_rgba(168,85,247,0.5)] transition duration-300 cursor-pointer '>
                 <button className='rounded-full  p-4 btn bg-gradient-to-b from-indigo-600 to-purple-600 absolute top-5 right-7 text-white'>02</button>
                <div>
-                 <img src={Package} alt="" />
+                 <img src="/assets/package.png" alt="" />
                </div> 
                <div className='text-center'>
                  <h2 className='font-bold text-2xl'>Choose Products</h2>
@@ -34,7 +31,7 @@ const Aside = () => {
             <div className='shadow p-20  bg-base-200 rounded-3xl  space-y-4 mx-auto relative hover:border-purple-500 hover:shadow-[0_0_20px_rgba(168,85,247,0.5)] transition duration-300 cursor-pointer'>
               <button className='rounded-full  p-4 btn bg-gradient-to-b from-indigo-600 to-purple-600 absolute top-5 right-7 text-white'>03</button>
                <div className='felx justify-center items-center'>
-                 <img  src={Rocket} alt="" />
+                 <img  src="/assets/rocket.png" alt="" />
                </div>
               <div className='text-center '>
                   <h2 className='font-bold text-2xl'>Start Creating</h2>
